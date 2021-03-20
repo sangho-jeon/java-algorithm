@@ -5,6 +5,11 @@ public class Fibonacci {
     ArrayList<Integer> tmp = new ArrayList<Integer>(Arrays.asList(0,0));
 
     public ArrayList<Integer> solution(int n){
+        int[] A = new int[100];
+        for(int p=0;p<100;p++){
+            A[p] = p;
+        }
+
 
         int i,j;
         if(n<=1){
