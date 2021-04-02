@@ -5,9 +5,6 @@ public class binary_search {
         int index = 0;
 
 
-
-
-
         return index;
     }
 }
